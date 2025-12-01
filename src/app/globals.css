@@ -1,0 +1,285 @@
+@import "tailwindcss";
+
+/* ---------- customize to look like your screenshot ---------- */
+
+/* hide the dial-code text next to the flag so only flag shows */
+.react-tel-input .selected-flag .country-code {
+  display: none !important;
+}
+
+/* tighten the spacing inside the flag button */
+.react-tel-input .selected-flag {
+  padding-right: 0.5rem !important;
+}
+
+/* remove built-in input border so we can control it with Tailwind classes (optional) */
+.react-tel-input .form-control {
+  /* border: 0 !important; */
+  background: transparent !important;
+  color: #010e26 !important;
+  width: 100% !important;
+  border-color: transparent !important;
+}
+
+/* dropdown list styling override (optional) */
+.react-tel-input .country-list {
+  z-index: 60; /* ensure above other UI */
+  border-radius: 0.5rem !important; /* rounded corners */
+  border: 1px solid #dee1e4 !important; /* Tailwind gray-300 border */
+  scrollbar-width: thin; /* for Firefox */
+  font-size: 0.875rem !important; /* text-sm */
+}
+.react-tel-input .flag-dropdown {
+  background-color: transparent !important;
+  border: none !important ;
+}
+
+.react-tel-input .selected-flag:hover, .react-tel-input .selected-flag:focus {
+  background-color: transparent !important;
+  border: none !important ;
+}
+.react-tel-input .flag-dropdown.open .selected-flag{
+  background-color: transparent !important;
+}
+
+.react-tel-input .country-list .search-emoji {
+  display: none !important;
+}
+.react-tel-input .country-list .search-box {
+  border: 1px solid #dee1e4 !important; /* Tailwind gray-300 border */
+  padding-bottom: 0.5rem !important;
+  margin-bottom: 0.5rem !important;
+  width: 95% !important;
+  /* padding: 0% !important; */
+    margin-left: 0 !important;
+
+}
+
+.react-tel-input .country-list .search {
+  border: none !important;
+  box-shadow: none !important;
+  font-size: 0.875rem !important; /* text-sm */
+}
+
+
+/* End CSS */
+
+
+
+/* Theme variables */
+:root {
+  --text-color: #25292A;
+  --background: #ffffff;
+  --foreground: #25292A; /* keep in sync with --text-color if you want */
+}
+
+body {
+  color: var(--text-color);
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --font-sans: var(--font-geist-sans);
+  --font-mono: var(--font-geist-mono);
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+
+
+
+
+
+/* SF Pro Display font faces */
+@font-face {
+  font-family: "SF Pro Display";
+  src: url("/fonts/SFPRODISPLAYREGULAR.OTF") format("opentype");
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "SF Pro Display";
+  src: url("/fonts/SFPRODISPLAYMEDIUM.OTF") format("opentype");
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "SF Pro Display";
+  src: url("/fonts/SFPRODISPLAYBOLD.OTF") format("opentype");
+  font-weight: 700;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "SF Pro Display";
+  src: url("/fonts/SFPRODISPLAYBLACKITALIC.OTF") format("opentype");
+  font-weight: 900;
+  font-style: italic;
+}
+
+/* Add more weights/styles as needed */
+
+/* Apply globally */
+html, body {
+  margin: 0;
+  padding: 0;
+  font-family: "SF Pro Display", Arial, Helvetica, sans-serif;
+  /* background: var(--background);
+  color: var(--foreground); */
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@layer utilities {
+  /* .txt-72 { font-size: clamp(40px, 2.1vw + 28.5px, 72px); } */
+  .txt-72 {
+    font-size: clamp(36px, 2.84vw + 22.95px, 72px);
+  }
+
+  .txt-66 {
+    font-size: clamp(40px, 1.8vw + 27.2px, 66px);
+  } /* ???? */
+
+  .txt-50 {
+    font-size: clamp(30px, 1.91vw + 16.5px, 50px);
+  }
+
+  .txt-48 {
+    font-size: clamp(28px, 1.83vw + 16.2px, 48px);
+  }
+
+  /* .txt-46 { font-size: clamp(28px, 1.14vw + 23.3px, 46px); } */
+  .txt-46 {
+    font-size: clamp(22.5px, 1.67vw + 17.2px, 46px);
+  }
+
+  .txt-44 {
+    font-size: clamp(27px, 1.63vw + 16.2px, 44px);
+  }
+
+  .txt-42 {
+    font-size: clamp(26px, 1.56vw + 16px, 42px);
+  }
+
+  .txt-40 {
+    font-size: clamp(24px, 1.47vw + 16px, 40px);
+  }
+
+  .txt-38 {
+    font-size: clamp(23px, 1.36vw + 15px, 38px);
+  }
+
+  .txt-36 {
+    font-size: clamp(22px, 1.28vw + 14.8px, 36px);
+  }
+
+  /* .txt-34 { font-size: clamp(18px, 1.13vw + 14.4px, 34px); } */
+  .txt-34 {
+    font-size: clamp(20.25px, 0.98vw + 17.1px, 34px);
+  }
+
+  .txt-32 {
+    font-size: clamp(20px, 1.14vw + 15.4px, 32px);
+  }
+
+  .txt-30 {
+    font-size: clamp(18px, 0.96vw + 15.2px, 30px);
+  }
+  .txt-28 {
+    font-size: clamp(18px, 0.94vw + 13.2px, 28px);
+  }
+  .txt-26 {
+    font-size: clamp(17px, 0.94vw + 15px, 26px);
+  }
+
+  /* .txt-24 { font-size: clamp(16px, 0.57vw + 14.2px, 24px); } */
+  .txt-24 {
+    font-size: clamp(18px, 0.43vw + 16.63px, 24px);
+  }
+
+  .txt-btn-24 {
+    font-size: clamp(16px, 1.389vw, 24px);
+  }
+
+  .txt-22 {
+    font-size: clamp(16px, 0.625vw + 14px, 22px);
+  }
+
+  /* .txt-20 { font-size: clamp(16px, 0.284vw + 15.1px, 20px); } */
+  .txt-20 {
+    font-size: clamp(16px, 0.284vw + 15.1px, 20px);
+  }
+
+  .txt-18 {
+    font-size: clamp(14px, 0.39vw + 11.5px, 18px);
+  }
+
+  .txt-16 {
+    font-size: clamp(13px, 0.39vw + 10px, 16px);
+  }
+
+  .txt-14 {
+    font-size: clamp(12px, 0.34vw + 10.8px, 14px);
+  }
+
+  .txt-12 {
+    font-size: clamp(10.5px, 0.28vw + 9px, 12px);
+  }
+
+  .txt-10 {
+    font-size: clamp(9px, 0.2vw + 7.5px, 10px);
+  }
+
+  .txt-8 {
+    font-size: clamp(7px, 0.16vw + 5.5px, 8px);
+  }
+}
+
+/* for commented values or untouched values this is the behaviour */
+/* | Class    | 320px  | 768px    | 1024px   | 1280px   | 1440px   | 1728px+ | Max Cap |
+| -------- | ------ | -------- | -------- | -------- | -------- | ------- | ------- |
+| `txt-72` | \~40px | \~51px   | \~58px   | \~65px   | \~70px   | 72px    | 72px    |
+| `txt-66` | \~40px | \~50px   | \~56px   | \~62px   | 66px     | 66px    | 66px    |
+| `txt-50` | 30px   | \~32px   | \~36.3px | \~40.8px | \~45.4px | 48.2px  | 50px    |
+| `txt-48` | 28px   | \~30.1px | \~34.3px | \~38.8px | \~43.2px | 46.2px  | 48px    |
+| `txt-46` | \~28px | \~34px   | \~38px   | \~42px   | \~44px   | 46px    | 46px    |
+| `txt-44` | 27px   | \~28.9px | \~32.3px | \~36.4px | \~40.6px | 43.3px  | 44px    |
+| `txt-42` | 26px   | \~27.8px | \~31px   | \~35px   | \~39px   | 41.4px  | 42px    |
+| `txt-40` | 24px   | 24px     | \~27.3px | \~31px   | \~34.8px | 37.2px  | 40px    |
+| `txt-38` | 23px   | \~24.8px | \~27.9px | \~31.6px | \~35px   | 37.4px  | 38px    |
+| `txt-36` | 22px   | \~23.7px | \~26.6px | \~30px   | \~33.4px | 35.7px  | 36px    |
+| `txt-34` | \~18px | \~22px   | \~26px   | \~30px   | \~32px   | 34px    | 34px    |
+| `txt-32` | \~20px | \~24.15px| \~27.1px | \~30px   | \~31.8px | 32px    | 32px    |
+| `txt-30` | \~18px | \~22px   | \~25px   | 30px     | 30px     | 34px    | 34px    |
+| `txt-28` | \~18px | \~20.4px | \~22.8px | \~25.2px | \~26.7px | 28px    | 28px    |
+| `txt-26` | \~17px | \~20px   | \~23px   | 26px     | 26px     | 26px    | 26px    |
+| `txt-24` | \~16px | \~18.6px | \~20px   | \~22.4px | \~23.8px | 24px    | 24px    |
+| `txt-22` | \~16px | \~18.5px | \~20.5px | 22px     | 22px     | 22px    | 22px    |
+| `txt-20` | \~16px | \~17.5px | \~18.2px | \~18.8px | \~19.4px | 20px    | 20px    |
+| `txt-18` | \~14px | \~14.3px | \~15.3px | \~16.3px | \~17px   | 18px    | 18px    | 
+| `txt-16` | \~13px | \~13px   | \~14px   | \~15px   | \~15.6px | 16px    | 16px    |
+| `txt-14` | \~12px | \~13.41px| \~14px   | \~14px   | \~14px   | 14px    | 14px    |
+| `txt-12` | 10.5px | \~11px   | \~11.7px | \~12px   | 12px     | 12px    | 12px    |
+| `txt-10` | 9px    | \~9.4px  | \~9.8px  | 10px     | 10px     | 10px    | 10px    |
+| `txt-8`  | 7px    | \~7.5px  | \~7.9px  | \~8px    | 8px      | 8px     | 8px     |
+
+
+*/

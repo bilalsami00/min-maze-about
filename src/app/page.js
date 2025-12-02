@@ -1,8 +1,8 @@
-import Hero from "./component/Hero";
-import Journey from "./component/Journey";
-import WhoWeAre from "./component/WhoWeAre";
-import Meet from "./component/Meet";
-import Contact from "./component/contact";
+import Hero from "./about/component/Hero";
+import Journey from "./about/component/Journey";
+import WhoWeAre from "./about/component/WhoWeAre";
+import Meet from "./about/component/Meet";
+import Contact from "./about/component/contact";
 
 export default function Page() {
   return (

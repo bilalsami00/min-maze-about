@@ -1,22 +1,21 @@
-import Hero from "./component/Hero";
-import Journey from "./component/Journey";
-import WhoWeAre from "./component/WhoWeAre";
-import Meet from "./component/Meet";
-import Contact from "./component/contact";
+import AiHero from "./component/ai-hero";
+// import Journey from "./component/Journey";
+// import WhoWeAre from "./component/WhoWeAre";
+// import Meet from "./component/Meet";
+// import Contact from "./component/contact";
 
-export default function AboutPage() {
+export default function AiPage() {
   return (
     <main className="min-h-screen">
       <div className="p-8">
         <h1 className="text-4xl font-bold mb-4">Welcome to Min Maze</h1>
         <p className="text-lg mb-8">We create experiences</p>
       </div>
-      <Hero
-        title="Building Digital Experiences that Inspire Growth"
-        subtitle="At Maze Digital Solutions, we combine creativity, 
-        trategy, and technology to help businesses establish a strong digital presence."
+      <AiHero
+        title="AI Software Development for Modern Enterprises"
+        subtitle="We build intelligent, data-driven products powered by machine learning, automation, and scalable cloud infrastructure."
       />
-      <WhoWeAre
+      {/* <WhoWeAre
         title="Building Digital Experiences that Inspire Growth"
         subtitle="At Maze Digital Solutions, we combine creativity, 
         trategy, and technology to help businesses establish a strong digital presence."
@@ -35,7 +34,7 @@ export default function AboutPage() {
       <Contact
         title="Let's talk about your project."
         subtitle="Feel free to book a quick discovery call to tell us about your needs and we can give you a quick quote."
-      />
+      /> */}
     </main>
   );
 }

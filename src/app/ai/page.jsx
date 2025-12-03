@@ -1,6 +1,7 @@
 import AiHero from "./component/ai-hero";
 import Analytics from "./component/analytics";
 import Help from "./component/help";
+import Inspo from "./component/inspo";
 // import Journey from "./component/Journey";
 // import WhoWeAre from "./component/WhoWeAre";
 // import Meet from "./component/Meet";
@@ -27,6 +28,12 @@ export default function AiPage() {
         title="How Maze Digital Helps"
         subtitle="We help companies turn complex AI potential into real, usable products."
       />
+      <Inspo
+        title="Inspo Hair"
+        subtitle="Inspo Hair gives you personalized, step-by-step instructions powered by AI and real licensed hairstylists 
+        – so you can DIY with confidence and get salon-worthy results at home."
+      />
+
       {/* <WhoWeAre
         title="Building Digital Experiences that Inspire Growth"
         subtitle="At Maze Digital Solutions, we combine creativity, 

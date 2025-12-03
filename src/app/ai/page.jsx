@@ -1,4 +1,5 @@
 import AiHero from "./component/ai-hero";
+import Analytics from "./component/analytics";
 // import Journey from "./component/Journey";
 // import WhoWeAre from "./component/WhoWeAre";
 // import Meet from "./component/Meet";
@@ -11,9 +12,15 @@ export default function AiPage() {
         <h1 className="text-4xl font-bold mb-4">Welcome to Min Maze</h1>
         <p className="text-lg mb-8">We create experiences</p>
       </div>
+
       <AiHero
         title="AI Software Development for Modern Enterprises"
         subtitle="We build intelligent, data-driven products powered by machine learning, automation, and scalable cloud infrastructure."
+      />
+      <Analytics
+        title="Predictive Analytics & AI"
+        subtitle="Turn real-time data into accurate forecasting, intelligent automation, and measurable business impact. 
+        Predictive analytics helps companies make faster decisions, reduce risks, and stay ahead of shifting market trends."
       />
       {/* <WhoWeAre
         title="Building Digital Experiences that Inspire Growth"

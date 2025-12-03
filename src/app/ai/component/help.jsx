@@ -15,8 +15,10 @@ const Help = ({ title = "", subtitle = "" }) => {
             {subtitle}
           </div>
         </div>
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 justify-items-center gap-6 w-full">
-          <div className="card w-full h-[260px] md:min-h-[300px] md:min-w-[410px]">
+        {/* <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 justify-items-center gap-6 w-full"> */}
+        <div className="grid grid-cols-1 sm:grid-cols-2 xl:grid-cols-3 gap-6 place-items-center w-full">
+
+          <div className="card ">
             <h1 className="max-md:text-2xl txt-32 font-medium">
               AI Product Strategy & Roadmapping
             </h1>
@@ -25,7 +27,7 @@ const Help = ({ title = "", subtitle = "" }) => {
               high-impact use cases, and create a scalable AI roadmap.
             </p>
           </div>
-          <div className="card w-full h-[260px] md:min-h-[300px] md:min-w-[410px]">
+          <div className="card ">
             <h1 className="max-md:text-2xl txt-32 font-medium">
               Data Architecture & Model Development{" "}
             </h1>
@@ -35,7 +37,7 @@ const Help = ({ title = "", subtitle = "" }) => {
               long-term adaptability.
             </p>
           </div>
-          <div className="card w-full h-[260px] md:min-h-[300px] md:min-w-[410px]">
+          <div className="card ">
             <h1 className="max-md:text-2xl txt-32 font-medium">
               Human-Centered AI Interfaces
             </h1>
@@ -45,7 +47,7 @@ const Help = ({ title = "", subtitle = "" }) => {
               users trust the system.
             </p>
           </div>
-          <div className="card w-full h-[260px] md:min-h-[300px] md:min-w-[410px]">
+          <div className="card ">
             <h1 className="max-md:text-2xl txt-32 font-medium">
               Scalable Engineering & Cloud Infrastructure
             </h1>
@@ -54,7 +56,7 @@ const Help = ({ title = "", subtitle = "" }) => {
               environments optimized for performance, security, and compliance.
             </p>
           </div>
-          <div className="card w-full h-[260px] md:min-h-[300px] md:min-w-[410px]">
+          <div className="card ">
             <h1 className="max-md:text-2xl txt-32 font-medium">
               Continuous Optimization & Growth
             </h1>
@@ -64,7 +66,7 @@ const Help = ({ title = "", subtitle = "" }) => {
               ready for user feedback or investor demo.
             </p>
           </div>
-          <div className="rounded-2xl p-6 md:px-6 md:py-10 bg-[#0F2250]! text-white w-full flex flex-col justify-center gap-6 h-[260px] md:min-h-[300px] md:min-w-[410px]">
+          <div className="card bg-[#0F2250]! text-white w-full flex flex-col justify-between ">
             <Image
               src="/ai/rocket.svg"
               alt="Analytics Image"

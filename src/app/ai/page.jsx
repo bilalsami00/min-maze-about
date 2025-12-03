@@ -1,5 +1,6 @@
 import AiHero from "./component/ai-hero";
 import Analytics from "./component/analytics";
+import Help from "./component/help";
 // import Journey from "./component/Journey";
 // import WhoWeAre from "./component/WhoWeAre";
 // import Meet from "./component/Meet";
@@ -21,6 +22,10 @@ export default function AiPage() {
         title="Predictive Analytics & AI"
         subtitle="Turn real-time data into accurate forecasting, intelligent automation, and measurable business impact. 
         Predictive analytics helps companies make faster decisions, reduce risks, and stay ahead of shifting market trends."
+      />
+      <Help
+        title="How Maze Digital Helps"
+        subtitle="We help companies turn complex AI potential into real, usable products."
       />
       {/* <WhoWeAre
         title="Building Digital Experiences that Inspire Growth"

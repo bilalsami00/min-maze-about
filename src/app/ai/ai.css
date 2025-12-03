@@ -1,0 +1,12 @@
+/* .grid-wrap {
+  display: grid;
+  grid-template-columns: repeat(3, 410px);
+  grid-template-rows: repeat(2, 300px);
+  gap: 16px;
+} */
+
+.card {
+  background: #EFF7FF;
+  padding: 24px;
+  border-radius: 24px;
+}

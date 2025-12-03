@@ -14,12 +14,12 @@ const Analytics = ({ title = "", subtitle = "" }) => {
           </div>
           <div
             className="
-    grid grid-cols-3 justify-items-center relative
-    before:content-[''] before:absolute before:top-1/2 before:-translate-y-1/2
-    before:left-[33.333%] before:h-12 before:w-px before:bg-[#D8DFE0]
-    after:content-[''] after:absolute after:top-1/2 after:-translate-y-1/2
-    after:left-[66.666%] after:h-12 after:w-px after:bg-[#D8DFE0]
-  "
+                grid grid-cols-3 justify-items-center relative
+                before:content-[''] before:absolute before:top-1/2 before:-translate-y-1/2
+                before:left-[33.333%] before:h-12 before:w-px before:bg-[#D8DFE0]
+                after:content-[''] after:absolute after:top-1/2 after:-translate-y-1/2
+                after:left-[66.666%] after:h-12 after:w-px after:bg-[#D8DFE0]
+            "
           >
             <div className="min-w-[100px] max-w-full flex flex-col md:justify-center items-center gap-1 pr-2">
               <h1 className="text-[#0071F5] txt-36 font-medium">60%</h1>

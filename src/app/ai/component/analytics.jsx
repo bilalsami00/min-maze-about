@@ -4,7 +4,7 @@ import Image from "next/image";
 const Analytics = ({ title = "", subtitle = "" }) => {
   return (
     <section className="px-6 bg-[#EFF7FF] py-10 md:py-12 md:px-18 xl:py-20 xl:px-20 flex flex-col xl:flex-row items-center justify-center">
-      <div className=" xl:w-7xl flex justify-center max-lg:flex-wrap gap-6 md:gap-10 xl:gap-42 ">
+      <div className=" xl:w-7xl flex justify-center max-xl:flex-wrap gap-6 md:gap-10 xl:gap-42 ">
         <div className=" max-w-[606px] flex flex-col justify-center">
           <h1 className="txt-48 font-bold text-[#010E26] leading-tight">
             {title}

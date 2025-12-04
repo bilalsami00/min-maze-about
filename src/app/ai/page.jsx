@@ -4,11 +4,6 @@ import Help from "./component/help";
 import Inspo from "./component/inspo.jsx";
 import InspoBanner from "./component/inspoBanner";
 
-// import Journey from "./component/Journey";
-// import WhoWeAre from "./component/WhoWeAre";
-// import Meet from "./component/Meet";
-// import Contact from "./component/contact";
-
 export default function AiPage() {
   return (
     <main className="min-h-screen">
@@ -39,26 +34,6 @@ export default function AiPage() {
         title="Not sure where your project fits?"
         subtitle="Let’s discuss your goals and find the best starting point."
       />
-      {/* <WhoWeAre
-        title="Building Digital Experiences that Inspire Growth"
-        subtitle="At Maze Digital Solutions, we combine creativity, 
-        trategy, and technology to help businesses establish a strong digital presence."
-      />
-      <Journey
-        title="The Maze Digital Journey"
-        subtitle="The Maze Digital Journey represents our growth, passion, and commitment to delivering meaningful digital solutions. 
-        From our early steps to becoming a trusted creative partner,
-        our journey continues to guide how we create value and impact for every client we serve."
-      />
-      <Meet
-        title="Meet Our Team"
-        subtitle="Meet our exceptional team at Maze Digital! Comprising diverse talents and expertise, 
-        we are a dedicated group committed to delivering excellence in every project."
-      />
-      <Contact
-        title="Let's talk about your project."
-        subtitle="Feel free to book a quick discovery call to tell us about your needs and we can give you a quick quote."
-      /> */}
     </main>
   );
 }

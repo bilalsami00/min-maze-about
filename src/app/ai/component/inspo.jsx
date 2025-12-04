@@ -5,7 +5,7 @@ const Inspo = ({ title = "", subtitle = "" }) => {
   return (
     <section className=" bg-[#010E26] text-white  flex flex-col xl:flex-row items-center justify-center">
       <div className="px-6  py-10 md:py-12 md:px-18 xl:py-20 xl:px-20 xl:w-7xl flex justify-center md:justify-end max-lg:flex-wrap gap-6 md:gap-10 xl:gap-42 ">
-        <div className=" max-w-[606px] flex flex-col justify-center">
+        <div className=" w-full xl:max-w-[590px] flex flex-col justify-center">
           <h1 className="txt-48 font-bold  leading-tight">
             {title}
           </h1>

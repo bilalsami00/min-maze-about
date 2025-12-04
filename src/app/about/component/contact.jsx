@@ -25,7 +25,7 @@ const Contact = ({ title = "", subtitle = "" }) => {
             {/* <br /> */}
             <span className="flex gap-2 font-medium txt-16">
               <Image
-                src="/sms.svg"
+                src="/aboutIcons/sms.svg"
                 alt="sms Image"
                 width={24}
                 height={24}
@@ -36,7 +36,7 @@ const Contact = ({ title = "", subtitle = "" }) => {
             {/* <br /> */}
              <span className="flex gap-2 font-medium txt-16">
               <Image
-                src="/call.svg"
+                src="/aboutIcons/call.svg"
                 alt="call Image"
                 width={24}
                 height={24}

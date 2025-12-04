@@ -32,7 +32,7 @@ const Meet = ({ title = "", subtitle = "" }) => {
                   rel="noopener noreferrer"
                 >
                   <Image
-                    src="/linkedin.svg"
+                    src="/aboutIcons/linkedin.svg"
                     alt="LinkedIn"
                     width={40}
                     height={40}
@@ -61,7 +61,7 @@ const Meet = ({ title = "", subtitle = "" }) => {
                   rel="noopener noreferrer"
                 >
                   <Image
-                    src="/linkedin.svg"
+                    src="/aboutIcons/linkedin.svg"
                     alt="LinkedIn"
                     width={40}
                     height={40}
@@ -90,7 +90,7 @@ const Meet = ({ title = "", subtitle = "" }) => {
                   rel="noopener noreferrer"
                 >
                   <Image
-                    src="/linkedin.svg"
+                    src="/aboutIcons/linkedin.svg"
                     alt="LinkedIn"
                     width={40}
                     height={40}

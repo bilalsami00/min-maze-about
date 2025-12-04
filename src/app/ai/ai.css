@@ -19,7 +19,7 @@
 /* screens >= 768px (md breakpoint) */
 @media (min-width: 1024px) {
   .card {
-    width: 350px;
+    width: 290px;
     height: 300px;
   }
 }

@@ -6,7 +6,7 @@ import "../ai.css"; // <-- import the global file for this route subtree
 const Help = ({ title = "", subtitle = "" }) => {
   return (
     <section className="px-6 py-10 md:py-12 md:px-18 xl:py-20 xl:px-20 flex flex-col xl:flex-row items-center justify-center">
-      <div className=" xl:w-7xl flex flex-col">
+      <div className="  w-full xl:w-7xl flex flex-col">
         <div className=" max-w-[606px] flex flex-col justify-center">
           <h1 className="txt-48 font-bold text-[#010E26] leading-tight">
             {title}
@@ -16,7 +16,7 @@ const Help = ({ title = "", subtitle = "" }) => {
           </div>
         </div>
         {/* <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 justify-items-center gap-6 w-full"> */}
-        <div className="grid grid-cols-1 sm:grid-cols-2 xl:grid-cols-3 gap-6 place-items-center w-full">
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 place-items-center w-full">
 
           <div className="card ">
             <h1 className="max-md:text-2xl txt-32 font-medium">

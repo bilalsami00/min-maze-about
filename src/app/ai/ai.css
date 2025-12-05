@@ -8,18 +8,26 @@
   height: 260px;
 }
 
-/* screens >= 768px (md breakpoint) */
-@media (min-width: 768px) {
-  .card {
-    width: 310px;
-    height: 300px;
-  }
-}
+    /* screens >= 768px (md breakpoint) */
+    @media (min-width: 768px) {
+      .card {
+        width: 310px;
+        height: 300px;
+      }
+    }
 
 /* screens >= 768px (md breakpoint) */
 @media (min-width: 1024px) {
   .card {
     width: 290px;
+    height: 300px;
+  }
+}
+
+/* screens >= 768px (md breakpoint) */
+@media (min-width: 1200px) {
+  .card {
+    width: 350px;
     height: 300px;
   }
 }

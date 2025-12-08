@@ -17,12 +17,7 @@ const Contact = ({ title = "", subtitle = "" }) => {
         <div className=" max-w-[642px] ">
           <h1 className="txt-48 font-medium  leading-tight">{title}</h1>
           <div className=" txt-20 font-normal  pt-6 pb-8 flex flex-col gap-6 leading-snug ">
-            {/* <span>
-              Maze Digital Solutions is a dedicated digital agency focused on
-              creating meaningful, scalable, and user-centric digital products.
-            </span> */}
             {subtitle}
-            {/* <br /> */}
             <span className="flex gap-2 font-medium txt-16">
               <Image
                 src="/aboutIcons/sms.svg"
@@ -33,7 +28,6 @@ const Contact = ({ title = "", subtitle = "" }) => {
               />
               sales@mazedigitals.com
             </span>
-            {/* <br /> */}
              <span className="flex gap-2 font-medium txt-16">
               <Image
                 src="/aboutIcons/call.svg"
@@ -53,11 +47,6 @@ const Contact = ({ title = "", subtitle = "" }) => {
             placeholder="Full Name"
             className="px-3 py-5 max-h-14 border rounded-md border-[#BBCFF3] focus:outline-none "
           />
-          {/* <input
-            type="text"
-            placeholder="Phone Number"
-            className="px-3 py-5 max-h-14 border rounded-md border-[#BBCFF3] focus:outline-none "
-          /> */}
         <div className="w-full flex justify-center items-center px-3 py-5 max-h-14 border rounded-md border-[#BBCFF3] focus:outline-none">
           <PhoneFlagInput value={phone} onChange={(val) => setPhone(val)} />
         </div>
@@ -66,11 +55,6 @@ const Contact = ({ title = "", subtitle = "" }) => {
             placeholder="Email Address"
             className="px-3 py-5 max-h-14 border rounded-md border-[#BBCFF3] focus:outline-none "
           />
-          {/* <input
-            type="text"
-            placeholder="What' your project all about?"
-            className="p-6  min-h-[130px] border  rounded-md border-[#BBCFF3] focus:outline-none"
-          /> */}
           <textarea
             placeholder="What's your project all about?"
             className="px-3 py-5 min-h-[130px] border rounded-md border-[#BBCFF3] 
